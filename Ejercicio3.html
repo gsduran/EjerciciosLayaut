@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Ejercicio 2</title>
+    <style media="screen" type="text/css">
+        div {
+            width: 300px;
+            height: 200px;
+            margin: 20px;
+            display: inline-block;
+            border: 1px solid #000;
+        }
+
+        .españa {
+            background-image: linear-gradient(red 33%, yellow 33%, yellow 66.66%, red 66.66%);
+        }
+
+        .emiratos {
+            background-image: linear-gradient(green 33%, white 33%, white 66.66%, black 66.66%);
+        }
+
+        .japon {
+            background-image: radial-gradient(circle, red 33%, white 33%, white);
+        }
+
+        .lineaHorizontal {
+            width: 100%;
+            height: 20px;
+            background: white;
+            position: relative;
+            margin-top: 90px;
+        }
+
+        .lineaVertical {
+            position: relative;
+            width: 20px;
+            height: 100%;
+            background: white;
+            margin-left: 70px;
+            margin-top: -110px;
+        }
+
+        .lineaEmiratos{
+            position: relative;
+            width: 25%;
+            height: 100%;
+            background: red;
+            margin-right: 70px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="españa"></div>
+    <div style="background: red; height: 200px;">
+        <nav class="lineaHorizontal"></nav>
+        <nav class="lineaVertical"></nav>
+    </div>
+    <div class="emiratos">
+        <nav class="lineaEmiratos"></nav>
+    </div>
+    <div class="japon"></div>
+
+
+</body>
+
+</html>
